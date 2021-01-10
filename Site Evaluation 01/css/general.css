@@ -54,7 +54,22 @@ a:hover {
   color:white;
 }
 
+.titre_simple
+{
+  font: bold 2em Impact, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+}
+
+.footer_simple
+{
+  font: bold 1em Impact, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+}
 
 .vertical_size{
-font-size:2vh ;
+font-size:12px ;
 }
+
+
