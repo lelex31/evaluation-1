@@ -27,14 +27,14 @@
             <nav class="navbar navbar-dark bg-dark">
                 <div class="container-fluid">
                   <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon vertical_size"></span>
+                    Menu <span class="navbar-toggler-icon vertical_size"></span>
                   </button>
                 </div>
               </nav>
               <div class="collapse" id="navbarToggleExternalContent">
                 <div class="bg-dark p-4">
                   <h5 class="text-white h6"><a class="vertical_size" href="#" onClick="accueil();">Accueil</a></h6>
-                  <h5 class="text-white h6"><a class="vertical_size" href="pub.html">Publicité</a></h6>
+                  <h5 class="text-white h6"><a class="vertical_size" href="#" onClick="pub();">Publicité</a></h6>
                 </div>
               </div>
         </div>
@@ -56,26 +56,19 @@
           </p>
         </div>
     </div>
-
-    <!-- <button type="button" class="btn btn-primary">Primary</button>
-    <button type="button" class="btn btn-secondary">Secondary</button>
-    <button type="button" class="btn btn-success">Success</button>
-    <button type="button" class="btn btn-danger">Danger</button>
-    <button type="button" class="btn btn-warning">Warning</button>
-    <button type="button" class="btn btn-info">Info</button>
-    <button type="button" class="btn btn-light">Light</button>
-    <button type="button" class="btn btn-dark">Dark</button>
-    <button type="button" class="btn btn-link">Link</button> -->
     
 </body>
 </html>
 
 
 <script language="JavaScript">
-  //$(document).ready(function () {$('iframe').iframeAutoHeight({debug: true});});btn-group-vertical
+
   function accueil()
           {
-                  // document.querySelector("iframe#contenu").setAttribute("src","accueil.html");
                   document.querySelector("object#contenu").setAttribute("data","accueil.html");          
           }
+  function pub()
+  {
+          document.querySelector("object#contenu").setAttribute("data","pub.html");          
+  }
 </script>

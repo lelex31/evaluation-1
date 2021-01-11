@@ -8,7 +8,7 @@ body, html{height:100%;}
 .wrapper {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-auto-rows: 1fr 9fr 1fr;
+  grid-auto-rows: 1fr 4fr 1fr;
   grid-template-areas:
     "hd"
     "main"
@@ -22,20 +22,20 @@ body, html{height:100%;}
   grid-area: hd;
   grid-column-start: 1;
 	grid-column-end: 13;
-	grid-row-start: 1;
 }
 
 .content {
   grid-area: main;
   grid-column-start: 1;
 	grid-column-end: 13;
-  grid-row-start: 2;
+
 }
 
 .footer {
   grid-area: ft;
   grid-column-start: 1;
-	grid-column-end: 13;
+  grid-column-end: 13;
+
 }
 
 
@@ -54,9 +54,17 @@ a:hover {
   color:white;
 }
 
+
 .titre_simple
 {
   font: bold 2em Impact, sans-serif;
+  letter-spacing: 2px;
+  text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
+}
+
+.sous_titre_simple
+{
+  font: bold 1em Impact, sans-serif;
   letter-spacing: 2px;
   text-shadow: 2px 3px 5px rgba(0,0,0,0.3);
 }
